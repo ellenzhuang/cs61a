@@ -12,7 +12,7 @@ test = {
           3.5
           >>> 7 // 2
           3
-          >>> 7 % 2			# 7 modulo 2, equivalent to the remainder of 7 // 2
+          >>> 7 % 2			# 7 modulo 2, the remainder when dividing 7 by 2.
           1
           """,
           'hidden': False,
@@ -32,10 +32,10 @@ test = {
           >>> x
           20
           >>> y = 5
-          >>> y += 3			# Equivalent to y = y + 3
+          >>> y = y + 3
           >>> y * 2
           16
-          >>> y //= 4			# Equivalent to y = y // 4
+          >>> y = y // 4
           >>> y + x
           22
           """,
